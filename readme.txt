@@ -24,5 +24,8 @@ This plugin let's you send email through the new Appmail.io HTTP API.
 
 == Changelog ==
 
+= 0.2 =
+Bugfixes
+
 = 0.1 =
 This is the first version of the plugin.
