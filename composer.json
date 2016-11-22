@@ -1,0 +1,12 @@
+{
+    "name": "janhenkes/jannes-mannes-appmail",
+    "require": {
+        "appmail/appmail": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Jan Henkes",
+            "email": "jan@jannesmannes.nl"
+        }
+    ]
+}
