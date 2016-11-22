@@ -20,4 +20,4 @@ require dirname( __FILE__ ) . '/vendor/autoload.php';
 require dirname( __FILE__ ) . '/lib/appmail-wp-mail.php';
 
 \JmAppMail\Plugin::init();
-\JmAppMail\Plugin::test();
+//\JmAppMail\Plugin::test();
