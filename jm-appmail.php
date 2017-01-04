@@ -4,7 +4,7 @@ Plugin Name: Jannes & Mannes AppMail
 Plugin URI:
 Description:
 Author: Jannes & Mannes
-Version: 0.2
+Version: 0.3
 Author URI: https://www.jannesmannes.nl
 */
 
