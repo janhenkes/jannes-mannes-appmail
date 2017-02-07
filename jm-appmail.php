@@ -4,7 +4,7 @@ Plugin Name: Jannes & Mannes AppMail
 Plugin URI:
 Description:
 Author: Jannes & Mannes
-Version: 0.3
+Version: 0.4
 Author URI: https://www.jannesmannes.nl
 */
 
@@ -20,4 +20,3 @@ require dirname( __FILE__ ) . '/vendor/autoload.php';
 require dirname( __FILE__ ) . '/lib/appmail-wp-mail.php';
 
 \JmAppMail\Plugin::init();
-//\JmAppMail\Plugin::test();
