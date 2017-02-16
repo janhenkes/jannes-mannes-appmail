@@ -273,7 +273,9 @@ if ( ! function_exists( 'wp_mail' ) ) {
 
 		if ( ! empty( $attachments ) ) {
 			foreach ( $attachments as $attachment ) {
-				$appmail_message->attach( basename( $attachment ), '', file_get_contents( $attachment ) );
+				if ( file_exists( $attachment ) ) {
+					$appmail_message->attach( basename( $attachment ), '', file_get_contents( $attachment ) );
+				}
 			}
 		}
 
