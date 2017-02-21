@@ -235,7 +235,7 @@ if ( ! function_exists( 'wp_mail' ) ) {
 		// Set whether it's plaintext, depending on $content_type
 		if ( 'text/html' == $content_type ) {
 			$appmail_message->htmlBody( $message );
-			$appmail_message->plainBody( $message );
+			$appmail_message->plainBody( JmAppMail\Plugin::html2text( $message ) );
 		} else {
 			$appmail_message->plainBody( $message );
 		}
