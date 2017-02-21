@@ -24,6 +24,9 @@ This plugin let's you send email through the new Appmail.io HTTP API.
 
 == Changelog ==
 
+= 0.4.2 =
+Convert HTML to text in plain text body.
+
 = 0.4.1 =
 Check if attachment exists before adding it.
 
