@@ -24,6 +24,9 @@ This plugin let's you send email through the new Appmail.io HTTP API.
 
 == Changelog ==
 
+= 0.4.3 =
+Fixed a bug in the html to plain text converter.
+
 = 0.4.2 =
 Convert HTML to text in plain text body.
 
